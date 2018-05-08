@@ -62,7 +62,7 @@ Using a Tagger
 A part-of-speech tagger, or `POS-tagger`:dt:, processes a sequence of words, and attaches a
 part of speech tag to each word (don't forget to ``import nltk``):
 
-    >>> text = word_tokenize("And now for something completely different")
+    >>> text = nltk.word_tokenize("And now for something completely different")
     >>> nltk.pos_tag(text)
     [('And', 'CC'), ('now', 'RB'), ('for', 'IN'), ('something', 'NN'),
     ('completely', 'RB'), ('different', 'JJ')]
